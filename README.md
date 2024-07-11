@@ -3,15 +3,11 @@
 
 ------------------------
 
-<div align="center">
-<img src="https://i.imgur.com/0iXMDac.jpg" alt="My Shortlinkify Design">
-</div>
-
 ## __Overview__
 
 This __task management project__ is designed to provide functionality for creating, reading, updating, and deleting tasks, along with user authentication and task categorization and also enable users to manage their tasks efficiently
  
-The application is built using [__Node.js__, __MongoDB__, __Express.js],
+The application is built using [__Node.js__, __MongoDB__, __Nodemand__, __PostMan__],
 and it offers a user-friendly interface for __Task Management__.
 
 __Features__
