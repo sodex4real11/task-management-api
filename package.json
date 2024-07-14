@@ -1,0 +1,19 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"><h1>Task Manager RESTFul-API</h1></div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodex4real11/task-management-api/issues"
+  },
+  "homepage": "https://github.com/sodex4real11/task-management-api#readme"
+}
