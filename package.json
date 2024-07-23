@@ -1,0 +1,31 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "\"A task manager REST API application developed using Node.JS \"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodex4real11/task-management-api.git"
+  },
+  "keywords": [
+    "\"Node.JS\"",
+    "\"REST\"" 
+  ],
+  "author": "\"Tiamiyu Sodiq Opeyemi\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodex4real11/task-management-api/issues"
+  },
+  "homepage": "https://github.com/sodex4real11/task-management-api#README.md",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
