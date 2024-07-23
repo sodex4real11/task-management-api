@@ -4,7 +4,7 @@
   "description": "\"A task manager REST API application developed using Node.JS \"",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
@@ -23,9 +23,12 @@
   "homepage": "https://github.com/sodex4real11/task-management-api#README.md",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^8.0.3"
+    "mongoose": "^5.13.2",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
   }
 }
