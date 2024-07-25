@@ -14,6 +14,10 @@ app.use(express.json());
 app.use('/api/auth', require('./API/routes/authRoutes'));
 app.use('/api/tasks', require('./API/routes/taskRoutes'));
 
+// Controllers
+app.use('/api/auth', require('./API/controllers/authRoutes'));
+app.use('/api/auth', require('./API/controllers/authRoutes'));
+
 // Database connection
 mongoose.connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Database connected'))
