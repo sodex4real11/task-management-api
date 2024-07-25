@@ -18,6 +18,9 @@ app.use('/api/tasks', require('./API/routes/taskRoutes'));
 app.use('/api/auth', require('./API/controllers/authRoutes'));
 app.use('/api/auth', require('./API/controllers/authRoutes'));
 
+// User
+app.use('/models/user', require('./models/User'));
+
 // Database connection
 mongoose.connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Database connected'))
