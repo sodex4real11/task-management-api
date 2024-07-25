@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const User = require('./models/User');
 
 dotenv.config();
 
@@ -17,9 +18,6 @@ app.use('/api/tasks', require('./API/routes/taskRoutes'));
 // Controllers
 app.use('/api/auth', require('./API/controllers/authRoutes'));
 app.use('/api/auth', require('./API/controllers/authRoutes'));
-
-// User
-app.use('/models/user', require('./models/User'));
 
 // Database connection
 mongoose.connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
